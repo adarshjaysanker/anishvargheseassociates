@@ -1,0 +1,39 @@
+.services {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .services-title {
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #002147;
+    margin-bottom: 30px;
+  }
+  
+  .services-grid-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding-bottom: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none; /* Add some space at the bottom for the scrollbar */
+  }
+  
+  .services-grid {
+    display: flex;
+    gap: 30px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* Ensure flex items (Servicecard) stack horizontally */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .services-grid {
+      flex-wrap: nowrap; /* Prevent wrapping on smaller screens */
+    }
+  }
