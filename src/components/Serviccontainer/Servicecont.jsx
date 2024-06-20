@@ -48,7 +48,7 @@ function Servicecont() {
   return (
     <section className='services'>
       <div className="services-container">
-        <h2 className="services-title">Our Services</h2>
+        <h2 className="services-title">Our Practise Areas</h2>
         <div className="services-grid-container">
             <div className="services-grid">
                 {services.map((service,  index) => (
